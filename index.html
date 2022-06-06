@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Agustina Mena</title>
+        <link rel="stylesheet" href="styles.css">
+        <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+         crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+      
+    </head>
+    <body>
+        <div class="antes-header">
+            
+            <div id="logo-arg">
+                <p>
+                    <img 
+                    
+                    src="https://argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/logo/1648503444/APLogo-20-20.png" alt=""> Argentina Programa-#YoProgramo 
+                </p>
+
+            </div>
+            <div id="logos">
+
+                <span class="btn-facebook"><a href="https://www.facebook.com/agusmena97/"><i class="bi bi-facebook" style="font-size: 25px; color: white;" ></i></a> </span>
+                <span class="btn-instagram"><a href="https://www.instagram.com/agusmenaa/"><i class="bi bi-instagram" style="font-size: 25px; color: white;"></i></a></span>
+                <span class="btn-facebook"><a href="https://twitter.com/AgusMena1"><i class="bi bi-twitter" style="font-size: 25px; color: white;" ></i></a> </span>
+            </div>
+            <div id="boton">
+                <button type="button" class="btn btn-outline-light">Login</button>
+            </div>
+        </div>
+        <div class="Header" id="fondo">
+            <div class="button-container">
+                <img id="fondo-header" width="300px" height="200px" src="https://i.pinimg.com/564x/f3/5c/f8/f35cf8ad6177a24f976df4143ce58839.jpg" alt="">
+                <span class="btn-edicion"  ><a href="#"><i class="bi bi-pencil-fill" style="color: black" ></i></a></span>
+            </div>
+            <div >
+                <img id="foto-perfil" src="IMG.jpg" alt="">
+                <span class="btn-edit"><a href="#"><i class="bi bi-pencil-fill" style="color: black" ></i></a></span>
+
+            </div>
+            
+            <div  id="text-info" >
+                <span id ="btn-ed" onclick="rehacer()"><a href="#"><i class="bi bi-pencil-fill" style="color: black" ></i></a></span>
+
+                <h2>Agustina Mena</h2>
+                <span>
+                   Psicopedagoga - Full Stack Developer Jr
+                </span>
+                <br>
+                <span>
+                    Tucumán (Argentina)
+                  </span>
+                  <span><a href="#"> Información de contacto</a></span>
+            </div>
+            <div>
+                <input id="edit-info" type="text" oninput="myFunction(this.value)" style="display: none">
+            </div>
+     
+
+        </div>
+        
+    
+        <div class="Acerca-de">
+            
+            <h3>Acerca de</h3>
+            <span id="btn-cancel" onclick="eliminar(this)"><a href=""> <i class="bi bi-x-circle-fill" style="color: black"> </i>
+            </a></span>
+            <span class="btn-edite" onclick="cambiar_parrafo()" ><a href="#"><i class="bi bi-pencil-fill" style="color: black" ></i>
+            </a></span>
+           <div>
+            <p id="text-acercade" >Psicopedagoga en Centro de Aprendizaje en Tucumán y Full Stack Devoloper Jr. </p>
+           </div>
+           <div>
+               <input id="edit-acercade" type="text" oninput="myFunction2(this.value)" style="display: none">
+           </div>
+         
+
+
+        </div>
+        <div class="Experiencia">
+           <h3>
+               Experiencia
+           </h3>
+           <br>
+           <ul class="lista" style="list-style:none">
+               <li>
+                <span class="btn-cancelar">
+                    <a href=""> <i class="bi bi-x-circle-fill" style="color: black"> </i>
+                    </a>
+
+                </span>
+                <span class="btn-editor" onclick="editar_parrafo()"><a href="#"><i class="bi bi-pencil-fill" style="color: black" ></i>
+                </a></span>
+                
+                <div class="alineado" id="text-psp" >
+                     <img class="izquierda" src="centro.jpg" alt="">
+                    <aside >
+                        <h6>Psicopedagoga</h6>
+                        <p class="primero">
+                         Centro de Aprendizaje - Tratamiento en dificultades especificas del Aprendizaje
+                        </p>
+                        <p class="segundo">
+                            Abril 2021/Actualmente
+                        </p>
+                    </aside>
+                 </div>
+
+                 <div>
+                    <input id="edit-psp" type="text" oninput="funcionpsp(this.value)" style="display: none">
+                </div>
+
+               </li>
+               <li>
+                <span class="btn-cancelar">
+                    <a href=""> <i class="bi bi-x-circle-fill" style="color: black"> </i>
+                    </a>
+
+                </span>
+                
+                <span class="btn-editor" onclick="cambiar()"><a href="#"><i class="bi bi-pencil-fill" style="color: black" ></i>
+                </a></span>
+                   <div class="alineado" id="text-conin">
+                    <img class="izquierda" src="CONIN.JPG" alt="">
+
+                    <aside>
+                        <h6>Psicopedagoga</h6>
+                        
+                        <P class="primero"> CONIN - Estimulación neurolingüista en niños de edad infantil con bajos recursos</P>
+                    <p class="segundo">Abril 2021 - Agosto 2021</p></p>
+                    </aside>
+                   </div>
+                   <div>
+                    <input id="edit-conin" type="text" oninput="funcionconin(this.value)" style="display: none">
+                </div>
+               </li>
+               <li>
+                <span class="btn-cancelar">
+                    <a href=""> <i class="bi bi-x-circle-fill" style="color: black"> </i>
+                    </a>
+
+                </span>
+                <span class="btn-editor" onclick="editar()"><a href="#"><i class="bi bi-pencil-fill" style="color: black" ></i>
+                </a></span>
+                  <div class="alineado" id="text-bmz">
+            
+                    <img class="izquierda" src="bmz.jpg" alt="">
+                    <aside>
+                        <h6>Community Manager</h6>
+                    <p class="primero">Inmobiliaria Bmz Propiedades - Manejo de redes sociales</p>
+                    <p class="segundo">2016 - Actualmente</p>
+                    </aside>
+                  </div>
+                  <div>
+                    <input id="edit-bmz" type="text" oninput="funcionBmz(this.value)" style="display: none">
+                </div>
+               </li>
+
+           </ul>
+          
+           
+
+        </div>
+        <div class="Educación">
+            <h3>Educación </h3>
+            <br>
+            <ul class="lista" style="list-style: none;">
+                <li>
+                    <span class="btn-cancelar">
+                        <a href=""> <i class="bi bi-x-circle-fill" style="color: black"> </i>
+                        </a>
+    
+                    </span>
+                    <span class="btn-editor" onclick="cambio()"><a href="#"><i class="bi bi-pencil-fill" style="color: black" ></i>
+                    </a></span>
+                <div class="alineado" id="text-decro">
+                    <img class="izquierda" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi15m9OALJckdxRVeBzG4SatDs8ishh9Bh2g&usqp=CAU" alt="">
+                    <aside>
+                        <h6>Instituto Decroly</h6>
+                        <p class="primero">Psicopedagogía</p>
+                        <p class="segundo">Marzo 2017-Marzo 2021</p>
+                    </aside>
+                </div>
+                <div>
+                    <input id="edit-decro" type="text" oninput="funciondecro(this.value)" style="display: none">
+                </div>
+                </li>
+                <li>
+                    <span class="btn-cancelar">
+                        <a href=""> <i class="bi bi-x-circle-fill" style="color: black"> </i>
+                        </a>
+    
+                    </span>
+                    <span class="btn-editor" onclick="cambiarcol()" ><a href="#"><i class="bi bi-pencil-fill" style="color: black" ></i>
+                    </a></span>
+                    <div class="alineado" id="text-col">
+                     
+                     <img class="izquierda" src="https://apdes.edu.ar/wp-content/uploads/2020/10/los-cerros-tucuman.png" alt="">
+                     <aside>
+                        <h6>Colegio Los Cerros</h6>
+                         <p class="primero">Bachillerato Humanistico orientado a las Ciencias Sociales.</p>
+                     
+                     
+                     <p class="segundo">Marzo 2023/Diciembre 2015</p></p>
+                     </aside>
+                    </div>
+                </li>
+                <div>
+                    <input id="edit-col" type="text" oninput="funcioncol(this.value)" style="display: none">
+                </div>
+        
+            </ul>
+
+
+        </div>
+      <script src="javascript.js"></script>
+        
+        
+    </body>
+</html>

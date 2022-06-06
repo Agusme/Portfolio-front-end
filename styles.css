@@ -1,0 +1,150 @@
+.antes-header {
+    margin: 10px 10px;
+    padding: 20px;
+    border-style: ridge;
+    border-width:thin ;
+    background-color: black;
+    background-size: 2px;
+ 
+ 
+}
+.Header{
+    border-radius: 32px;
+    margin: 10px 10px;
+    padding: 20px;
+   
+   
+   
+}
+.info {
+    border-radius: 32px;
+    margin: 10px 10px;
+    padding: 20px;
+    
+}
+.Acerca-de{
+    border-radius: 32px;
+    margin: 10px 10px;
+    padding: 20px;
+    
+   
+  
+    
+}
+
+.Experiencia{
+    border-radius: 32px;
+    margin: 10px 10px;
+    padding: 20px;
+    text-align: justify;
+}
+.Educación{
+    border-radius: 32px;
+    margin: 10px 10px;
+    padding: 20px;
+    
+
+};
+
+.Header#fondo {
+    padding: 0;
+}
+img#fondo-header {
+    width: 100%;
+    border-radius: 32px 32px 0 0 ;
+}
+div#fondo-header {
+    display: flex;
+    z-index: 1;
+}
+div#logo-arg img{
+    width: 80px;
+    height: 50px;
+    margin-left: 10px;
+}
+div#logos {
+    width: 90px;
+    height: 30px;
+    float: right;
+    margin-right: 65px;
+    margin-top: -60px;
+    
+    
+}
+
+div#logo-arg p {
+    color: white;
+}
+div#boton {
+    float: right;
+    margin-top: -60px;
+    color: white;
+   
+}
+img#foto-perfil {
+    border-radius: 50%;
+    width: 152px;
+    height: 152px;
+    margin-top: -110px;
+    z-index: 1;
+    margin-left: 25px;
+}
+
+.primero {
+    font-size: smaller;
+}
+.segundo {
+    font-size: x-small;
+}
+
+ul.lista img{
+    width: 80px;
+    height: 80px;
+}
+div.alineado img.izquierda {
+    float: left;
+    margin-right: 15px;
+  }
+li.sangria {
+    text-indent:6rem;
+}
+
+span.btn-edit {
+    margin-top: -111px;
+    margin-left: 10px;
+    z-index: 3;
+}
+span.btn-edite{
+margin-top: -35px;
+float: right;
+margin-right: 35px ;
+
+}
+
+
+span#btn-cancel {
+margin-top: -35px;
+float: right;
+margin-right: 15px ;
+}
+
+span.btn-cancelar {
+    float:right;
+    margin-right: 15px;
+}
+span.btn-editor {
+ float: right;
+margin-right: 2px ;
+}
+span#btn-ed {
+    float:right;
+    margin-right: 1040px;
+    z-index: 2;
+  
+}
+span.btn-edicion {
+    position:absolute;
+    margin-top: 1px;
+    right: 55px;
+    z-index: 2;
+}
