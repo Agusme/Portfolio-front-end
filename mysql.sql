@@ -1,0 +1,1 @@
+select * from persona  join  `experiencia-laboral` on persona.id = `experiencia-laboral`.persona_id
